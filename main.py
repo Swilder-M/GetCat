@@ -12,7 +12,6 @@ from PyQt5.QtWidgets import *
 import sys
 import random
 
-
 class BtnLabel(QtWidgets.QLabel):
     signal_time = QtCore.pyqtSignal(bool, int, int)
 
